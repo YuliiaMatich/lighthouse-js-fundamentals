@@ -1,8 +1,5 @@
 function isOdd (num){
-if (num % 2 === 0){
-  console.log(num+" is even.")
-} else console.log (num+" is odd.")
-return;
+return num % 2 === 0;
 }
-isOdd(6)
-isOdd(11)
+console.log("3 is odd: " + isOdd(3));
+console.log("8 is odd: " + isOdd(8));
