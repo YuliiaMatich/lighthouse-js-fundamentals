@@ -16,7 +16,7 @@ function calculateTriangleArea(base, height){
 
 function calculateCircleArea(radius){
   if (radius >=0){
-  let circle = Math.Pi * radius * radius;
+  let circle = Math.PI * radius * radius;
   return circle; 
   }else {undefined}
 }
